@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    overflow-x: hidden;
+}
+nav{
+    /* background-color: #df9516;
+    width: 100%; */
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px ;
+    color: #000;
+}

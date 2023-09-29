@@ -1,12 +1,38 @@
 body{
     width: 100%;
-    padding: 1rem;
+    padding: 0;
     margin: 0;
     overflow-x: hidden;
+    
 }
+/* .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+} */
 nav{
-    /* background-color: #df9516;
-    width: 100%; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2;
+    padding: 10px;
+    z-index: 2;
+    
+    /* box-shadow: 1px 2px 1px #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2;
+    margin-bottom: 5px; */
 }
 
 h1{
@@ -15,4 +41,8 @@ h1{
     align-items: center;
     padding: 2px 2px ;
     color: #000;
+}
+
+.stat{
+    margin-top: 6rem;
 }

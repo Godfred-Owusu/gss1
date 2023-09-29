@@ -50,6 +50,27 @@ nav{
     margin: 0 1rem 0 1rem;
     /* list-style: none; */
     text-decoration: none;
+    position: relative;
+    color: #000;
+}
+
+.links>a:hover{
+    color: #df9516;
+}
+
+.links>a::after{
+    content: '';
+    width:0;
+    position: absolute;
+    height: 3px;
+    background-color:#df9516 ;
+    top: 17px;
+    left: 0;
+    transition: 300ms;
+}
+
+.links>a:hover:after{
+    width:50%;
 }
 
 h1{
